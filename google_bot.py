@@ -26,18 +26,18 @@ class GoogleBot:
         self.thumbnails_xpath = []
 
         # Adding the x paths of the thumbnails to the list
-        for index in range(number_of_images):
+        for ind in range(number_of_images):
             self.thumbnails_xpath.append(
-                '//*[@id="islrg"]/div[1]/div[{index}]/a[1]/div[1]/img'.format(index = index + 1))
+                '//*[@id="islrg"]/div[1]/div[{index}]/a[1]/div[1]/img'.format(index = ind + 1))
 
         self.larger_image_xpath = '//*[@id="Sva75c"]/div/div/div[3]/div[2]/div/div[1]/div[1]/div/div[2]/a/img'
 
         # Downloading the images
-        for index in range(number_of_images):
+        for idx in range(number_of_images):
             self.image_download(delay = delay, file_base = file_base, query = query,
-                                thumbnail = self.thumbnails_xpath[index],
+                                thumbnail = self.thumbnails_xpath[idx],
                                 image = self.larger_image_xpath,
-                                index = index + 1)
+                                index = idx + 1)
 
         self.driver.close()
 
@@ -71,7 +71,7 @@ class GoogleBot:
 
 
 print('========================================================================')
-print('|           Google_Bot 1.0.1.0 by Allex Radu [www.ATFR.net]             |')
+print('|           Google_Bot 1.0.1.1 by Allex Radu [www.ATFR.net]             |')
 print('|     Get the latest version at https://github.com/allexradu/gBot       |')
 print('========================================================================')
 print('| Instructions: Save your Excel Workbook as "a.xls" and place it in     |')
