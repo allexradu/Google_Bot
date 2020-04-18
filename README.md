@@ -1,5 +1,5 @@
-# Google_Bot
-Google Bot for eCommerce
+# Google Bot for eCommerce by Allex Radu
+Google Bot for eCommerce by Allex Radu:
 
 This bot allows you to quickly download product images from your online shop using Google Image Search.
 
