@@ -15,9 +15,11 @@ Step 4. Add the delay between images in seconds using a number that can, optiona
 
 Note. A lower delay than 1 second my result in lower quality images.
 
-Step 5. The bot with download 4 images with the file name stating with A1001.jpg (for the first image of the first product), A1002.jpg (for the second image), A1003.jpg (for the third), A1004.jpg (for the forth).
+Step 5. Pick how many photos / search do you want the bot do download starting with 1 with a maximum of 9.
 
-Note: some images might not be in the JPEG format even though they have the suffix .jpg, we recommend converting all images with a batch converter just in case. 
+Note: The bot with download images with the file name stating with A1001.jpg (for the first image of the first product), A1002.jpg (for the second image), A1003.jpg (for the third), A1004.jpg (for the forth) ... A1009.jpg (for the ninth)
+
+Remember: some images might not be in the JPEG format even though they have the suffix .jpg, we recommend converting all images with a batch converter just in case. 
 
 
 
