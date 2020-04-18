@@ -7,7 +7,7 @@ from selenium import webdriver
 
 
 class GoogleBot:
-    def __init__(self, query, file_base, delay):
+    def __init__(self, query, file_base, delay, number_of_images):
         # Activating the Chrome Driver
         self.filename = ''
         self.driver = webdriver.Chrome()
@@ -20,26 +20,25 @@ class GoogleBot:
         self.driver.find_element_by_xpath(
             '//*[@id="hdtb-msb-vis"]/div[2]/a') \
             .click()
-        #
 
         sleep(delay)
 
-        self.image_download(delay = delay, file_base = file_base, query = query,
-                            thumbnail = '//*[@id="islrg"]/div[1]/div[1]/a[1]/div[1]/img',
-                            image = '//*[@id="Sva75c"]/div/div/div[3]/div[2]/div/div[1]/div[1]/div/div[2]/a/img',
-                            index = 1)
-        self.image_download(delay = delay, file_base = file_base, query = query,
-                            thumbnail = '//*[@id="islrg"]/div[1]/div[2]/a[1]/div[1]/img',
-                            image = '//*[@id="Sva75c"]/div/div/div[3]/div[2]/div/div[1]/div[1]/div/div[2]/a/img',
-                            index = 2)
-        self.image_download(delay = delay, file_base = file_base, query = query,
-                            thumbnail = '//*[@id="islrg"]/div[1]/div[3]/a[1]/div[1]/img',
-                            image = '//*[@id="Sva75c"]/div/div/div[3]/div[2]/div/div[1]/div[1]/div/div[2]/a/img',
-                            index = 3)
-        self.image_download(delay = delay, file_base = file_base, query = query,
-                            thumbnail = '//*[@id="islrg"]/div[1]/div[4]/a[1]/div[1]/img',
-                            image = '//*[@id="Sva75c"]/div/div/div[3]/div[2]/div/div[1]/div[1]/div/div[2]/a/img',
-                            index = 4)
+        self.thumbnails_xpath = []
+
+        # Adding the x paths of the thumbnails to the list
+        for index in range(number_of_images):
+            self.thumbnails_xpath.append(
+                '//*[@id="islrg"]/div[1]/div[{index}]/a[1]/div[1]/img'.format(index = index + 1))
+
+        self.larger_image_xpath = '//*[@id="Sva75c"]/div/div/div[3]/div[2]/div/div[1]/div[1]/div/div[2]/a/img'
+
+        # Downloading the images
+        for index in range(number_of_images):
+            self.image_download(delay = delay, file_base = file_base, query = query,
+                                thumbnail = self.thumbnails_xpath[index],
+                                image = self.larger_image_xpath,
+                                index = index + 1)
+
         self.driver.close()
 
     def image_download(self, delay, file_base, query, thumbnail, image, index):
@@ -72,7 +71,7 @@ class GoogleBot:
 
 
 print('========================================================================')
-print('|           Google_Bot 1.0.0.5 by Allex Radu [www.ATFR.net]             |')
+print('|           Google_Bot 1.0.1.0 by Allex Radu [www.ATFR.net]             |')
 print('|     Get the latest version at https://github.com/allexradu/gBot       |')
 print('========================================================================')
 print('| Instructions: Save your Excel Workbook as "a.xls" and place it in     |')
@@ -80,6 +79,20 @@ print('| the same folder as this file, make sure the file in not opened.       |
 print('========================================================================')
 print('|      WARNING!!! WRITE THIS DOWN! To stop the bot press CTRL + C       |')
 print('========================================================================')
+
+no_of_images = 0
+
+while True:
+    try:
+        no_of_images = int(input('Number of images per product [1-9]: '))
+    except:
+        print('Invalid Input!!! Try again!')
+    else:
+        if not (0 < no_of_images <= 9):
+            print('Number not in range, try again!!')
+            continue
+        else:
+            break
 
 while True:
     try:
@@ -106,7 +119,7 @@ try:
     for i in range(len(product_names)):
         file_name_base = 'A' + '{num}'.format(num = (100 + i))
         product_name = product_names[i]
-        GoogleBot(product_name, file_name_base, seconds_delay)
+        GoogleBot(product_name, file_name_base, seconds_delay, no_of_images)
 except:
     print('Excel File NOT READ. Name your file "a.xls" with the first column "Name"')
     print('and place it in the same directory and the bot file.')
