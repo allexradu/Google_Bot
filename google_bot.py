@@ -6,7 +6,6 @@ import pandas as pd
 from selenium import webdriver
 
 
-#
 class GoogleBot:
     def __init__(self, query, file_base, delay):
         # Activating the Chrome Driver
@@ -73,7 +72,7 @@ class GoogleBot:
 
 
 print('========================================================================')
-print('|            Google_Bot 1.0 by Allex Radu [www.ATFR.net]                |')
+print('|           Google_Bot 1.0.0.1 by Allex Radu [www.ATFR.net]             |')
 print('|     Get the latest version at https://github.com/allexradu/gBot       |')
 print('========================================================================')
 print('| Instructions: Save your Excel Workbook as "a.xls" and place it in     |')
