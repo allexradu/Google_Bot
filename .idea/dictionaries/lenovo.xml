@@ -2,7 +2,9 @@
   <dictionary name="lenovo">
     <words>
       <w>islrg</w>
+      <w>openpyxl</w>
       <w>xlrd</w>
+      <w>xlsx</w>
     </words>
   </dictionary>
 </component>
