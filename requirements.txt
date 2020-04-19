@@ -1,3 +1,4 @@
 setuptools~=41.2.0
 pandas~=1.0.3
 selenium~=3.141.0
+xlrd~=1.2.0

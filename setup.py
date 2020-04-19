@@ -12,5 +12,6 @@ setup(
     author = 'Allex Radu',
     author_email = 'dev@allexradu.com',
     description = 'This bot allows you to quickly download product images from your online shop using Google Image '
-                  'Search. '
+                  'Search. ',
+
 )
