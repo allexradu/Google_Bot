@@ -4,7 +4,7 @@ import Google_Bot
 
 setup(
     name = 'Google_Bot',
-    version = '1.1.0.3',
+    version = '1.2.0.0',
 
     py_modules = [Google_Bot],
     url = 'https://github.com/allexradu/Google_Bot',

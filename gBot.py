@@ -11,7 +11,6 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import ElementClickInterceptedException
 
 
-#
 class Google(object):
     def __init__(self, number_of_images, product_names, delay):
         # Activating the Chrome Driver
@@ -38,6 +37,7 @@ class Google(object):
         for product_name in self.product_names:
             self.download_each_product(product_name = product_name)
             self.product_index += 1
+            excel.add_data_to_excel()
             print('product index is ', self.product_index)
 
         sleep(10)
@@ -49,24 +49,27 @@ class Google(object):
         product_name = product_name
 
         # Finding the search Box of Google Images
-        elem = self.driver.find_element_by_name('q')
+        try:
+            elem = self.driver.find_element_by_name('q')
 
-        sleep(self.delay)
+            sleep(self.delay)
 
-        # Clearing the search box
-        elem.clear()
+            # Clearing the search box
+            elem.clear()
 
-        sleep(self.delay)
+            sleep(self.delay)
 
-        # Typing the new search
-        elem.send_keys(product_name)
+            # Typing the new search
+            elem.send_keys(product_name)
 
-        sleep(self.delay)
+            sleep(self.delay)
 
-        # Pressing ENTER (RETURN)
-        elem.send_keys(Keys.RETURN)
+            # Pressing ENTER (RETURN)
+            elem.send_keys(Keys.RETURN)
 
-        download_each_image(obj = self, product_name = product_name)
+            download_each_image(obj = self, product_name = product_name)
+        except KeyboardInterrupt:
+            print('Keyboard was interrupted')
 
 
 def download_each_image(obj, product_name):
@@ -88,36 +91,54 @@ def download_each_image(obj, product_name):
             # Getting the URL out the img attribute
             src = img.get_attribute('src')
 
-            if platform.system() == 'Windows':
-                file_name_base = 'excel\\photos\\' + 'A' + '{num}'.format(num = (100 + obj.product_index))
-            else:
-                file_name_base = '../excel/photos/' + 'A' + '{num}'.format(num = (100 + obj.product_index))
+            system_prefix = 'excel\\photos\\' if platform.system() == 'Windows' else '../excel/photos/'
 
-            filename = file_name_base + '{image_index}.jpg'.format(image_index = each_image_index + 1)
+            filename = 'A' + '{num}'.format(num = (100 + obj.product_index)) + '{image_index}.jpg'.format(
+                image_index = each_image_index + 1)
+            filename_with_path = system_prefix + filename
 
             # Downloading the (bigger) image and storing it locally
-            urlretrieve(src, filename)
+            urlretrieve(src, filename_with_path)
 
         except NoSuchElementException:
+            add_na_to_excel(each_image_index = each_image_index, product_index = obj.product_index,
+                            product_name = product_name, error_text = 'No image found for Product:')
             # no images found on this search
             print('No image found for Product: {product}'.format(product = product_name))
         except FileNotFoundError:
+            add_na_to_excel(each_image_index = each_image_index, product_index = obj.product_index,
+                            product_name = product_name, error_text = 'File error on downloading image for product:')
             # something wrong with local path
-            print('File error on downloading image for product: {product} '.format(product = product_name))
         except HTTPError:
-            print('HTTP error on downloading image for product: {product} '.format(product = product_name))
+            add_na_to_excel(each_image_index = each_image_index, product_index = obj.product_index,
+                            product_name = product_name, error_text = 'HTTP error on downloading image for product:')
         except URLError:
-            print('URL error on downloading image for product: {product} '.format(product = product_name))
+            add_na_to_excel(each_image_index = each_image_index, product_index = obj.product_index,
+                            product_name = product_name, error_text = 'URL error on downloading image for product:')
         except ElementClickInterceptedException:
-            print('The image click was interrupted on downloading product: {product} '.format(product = product_name))
+            add_na_to_excel(each_image_index = each_image_index, product_index = obj.product_index,
+                            product_name = product_name,
+                            error_text = 'The image click was interrupted on downloading product:')
         # except:
         #     # something unexpected went wrong
         #     print(
         #         'Unknown Error Image {image_index} - {q}'.format(q = query, image_index = image_index))
 
         else:
+            key = 'Image %(column_image_number)s' % dict(column_image_number = each_image_index + 1)
+            link_prefix = 'photos\\' if platform.system() == 'Windows' else 'photos/'
+            link = '=HYPERLINK("{link_prefix}{filename}","{link_prefix}{filename}")'.format(link_prefix = link_prefix,
+                                                                                            filename = filename)
+            excel.downloaded_images[key].insert(obj.product_index, link)
+
             # Letting the user know that the 1st image of the first product has been downloaded
             print('{q} - {filename} downloaded'.format(q = product_name, filename = filename))
+
+
+def add_na_to_excel(each_image_index, product_index, product_name, error_text):
+    key = 'Image %(column_image_number)s' % dict(column_image_number = each_image_index + 1)
+    excel.downloaded_images[key].insert(product_index, 'n/a')
+    print('{error_text} {product}'.format(error_text = error_text, product = product_name))
 
 
 def get_the_thumbnail_xpath(number_of_images):

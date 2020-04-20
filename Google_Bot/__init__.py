@@ -10,7 +10,7 @@ def main():
     delay = 0
 
     print('========================================================================')
-    print('|           Google_Bot 1.1.0.3 by Allex Radu [www.ATFR.net]             |')
+    print('|           Google_Bot 1.2.0.0 by Allex Radu [www.ATFR.net]             |')
     print('|     Get the latest version at https://github.com/allexradu/gBot       |')
     print('========================================================================')
     print('| Instructions: Save your Excel Workbook as "a.xls" and place it in     |')
