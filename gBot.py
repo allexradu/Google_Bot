@@ -126,7 +126,12 @@ def download_each_image(obj, product_name):
 
         else:
             key = 'Image %(column_image_number)s' % dict(column_image_number = each_image_index + 1)
-            link_prefix = 'photos\\' if platform.system() == 'Windows' else 'photos/'
+
+            # Uncomment this if you want the excel file to be clickable on a non-Windows machine
+            # link_prefix = 'photos\\' if platform.system() == 'Windows' else 'photos/'
+
+            link_prefix = 'photos\\'
+
             link = '=HYPERLINK("{link_prefix}{filename}","{link_prefix}{filename}")'.format(link_prefix = link_prefix,
                                                                                             filename = filename)
             excel.downloaded_images[key].insert(obj.product_index, link)
