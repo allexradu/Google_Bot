@@ -11,6 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import ElementClickInterceptedException
 
 
+#
 class Google(object):
     def __init__(self, number_of_images, product_names, delay):
         # Activating the Chrome Driver

@@ -19,15 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d71e63d9-2cf9-4617-b5d7-083f4676e63f" name="Default Changelist" comment="Version 1.1.0.2">
-      <change afterPath="$PROJECT_DIR$/scrach/version 1.1.02/Google_Bot/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrach/version 1.1.02/excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrach/version 1.1.02/gBot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google_Bot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Google_Bot/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/excel.py" afterDir="false" />
+    <list default="true" id="d71e63d9-2cf9-4617-b5d7-083f4676e63f" name="Default Changelist" comment="Version 1.1.0.3">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Google_Bot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/lenovo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/gBot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
