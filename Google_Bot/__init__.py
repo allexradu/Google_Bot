@@ -7,10 +7,9 @@ import platform
 def main():
     number_of_images = 0
     product_names = excel.read_excel_first_column()
-    delay = 0
 
     print('========================================================================')
-    print('|           Google_Bot 1.2.0.1 by Allex Radu [www.ATFR.net]             |')
+    print('|           Google_Bot 1.2.0.2 by Allex Radu [www.ATFR.net]             |')
     print('|     Get the latest version at https://github.com/allexradu/gBot       |')
     print('========================================================================')
     print('| Instructions: Save your Excel Workbook as "a.xls" and place it in     |')
@@ -40,10 +39,8 @@ def main():
         except:
             print('Invalid Input!!! Try again!')
         else:
-            delay = seconds_delay
+            gBot.Google(number_of_images = number_of_images, product_names = product_names, delay = seconds_delay)
             break
-
-    gBot.Google(number_of_images = number_of_images, product_names = product_names, delay = delay)
 
 
 if __name__ == '__main__':
