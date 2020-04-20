@@ -1,10 +1,10 @@
 from time import sleep
 from urllib.error import HTTPError
+from urllib.error import URLError
 from urllib.request import urlretrieve
 import platform
+import excel
 
-import pandas as pd
-from openpyxl import load_workbook
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
@@ -96,6 +96,7 @@ def download_each_image(obj, product_name):
 
             # Downloading the (bigger) image and storing it locally
             urlretrieve(src, filename)
+
         except NoSuchElementException:
             # no images found on this search
             print('No image found for Product: {product}'.format(product = product_name))
@@ -104,6 +105,8 @@ def download_each_image(obj, product_name):
             print('File error on downloading image for product: {product} '.format(product = product_name))
         except HTTPError:
             print('HTTP error on downloading image for product: {product} '.format(product = product_name))
+        except URLError:
+            print('URL error on downloading image for product: {product} '.format(product = product_name))
         except ElementClickInterceptedException:
             print('The image click was interrupted on downloading product: {product} '.format(product = product_name))
         # except:

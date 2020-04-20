@@ -1,5 +1,9 @@
 import pandas as pd
 import platform
+from openpyxl import load_workbook
+
+# downloaded_images = {'Image 1': [''], 'Image 2': [''], 'Image 3': [''], 'Image 4': [''],
+#                      'Image 5': [''], 'Image 6': [''], 'Image 7': [''], 'Image 8': [''], 'Image 9': ['']}
 
 
 def read_excel_first_column():
