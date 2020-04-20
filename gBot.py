@@ -132,8 +132,8 @@ def download_each_image(obj, product_name):
 
             link_prefix = 'photos\\'
 
-            link = '=HYPERLINK("{link_prefix}{filename}","{link_prefix}{filename}")'.format(link_prefix = link_prefix,
-                                                                                            filename = filename)
+            link = '=HYPERLINK("{link_prefix}{filename}","{filename}")'.format(link_prefix = link_prefix,
+                                                                               filename = filename)
             excel.downloaded_images[key].insert(obj.product_index, link)
 
             # Letting the user know that the 1st image of the first product has been downloaded
