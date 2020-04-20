@@ -1,15 +1,10 @@
 import pandas as pd
-import platform
 
 
 def read_excel_first_column():
     # Reading first column of a local excel file
     try:
-        if platform.system() == 'Windows':
-            df = pd.read_excel('excel\\a.xlsx', sheet_name = 0)
-        else:
-            df = pd.read_excel('../excel/a.xlsx', sheet_name = 0)
-
+        df = pd.read_excel('excel\\a.xlsx', sheet_name = 0)
         print('Excel Read Complete!')
 
         product_names = df['Name'].tolist()

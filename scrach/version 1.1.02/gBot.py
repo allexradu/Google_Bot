@@ -1,7 +1,6 @@
 from time import sleep
 from urllib.error import HTTPError
 from urllib.request import urlretrieve
-import platform
 
 import pandas as pd
 from openpyxl import load_workbook
@@ -87,10 +86,7 @@ def download_each_image(obj, product_name):
             # Getting the URL out the img attribute
             src = img.get_attribute('src')
 
-            if platform.system() == 'Windows':
-                file_name_base = 'excel\\photos\\' + 'A' + '{num}'.format(num = (100 + obj.product_index))
-            else:
-                file_name_base = '../excel/photos/' + 'A' + '{num}'.format(num = (100 + obj.product_index))
+            file_name_base = 'excel\\photos\\' + 'A' + '{num}'.format(num = (100 + obj.product_index))
 
             filename = file_name_base + '{image_index}.jpg'.format(image_index = each_image_index + 1)
 
