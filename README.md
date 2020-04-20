@@ -7,7 +7,7 @@ All you need is a Excel Spreadsheet
  
 Step 1. Put your products name in column 1 and name it "Name"
 
-Step 2. Save your workbook as "a.xls" and place it in the same folder you have this software
+Step 2. Save your workbook as "a.xlsx" and place it excel folder
 
 Step 3. Execute this software using "python google_bot.py"
 
