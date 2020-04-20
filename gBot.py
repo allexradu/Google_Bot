@@ -35,12 +35,14 @@ class Google(object):
         sleep(delay)
 
         for product_name in self.product_names:
+            # Lopping over each product name
             self.download_each_product(product_name = product_name)
             self.product_index += 1
+            # Updating the data in Excel
             excel.add_data_to_excel()
             print('product index is ', self.product_index)
 
-        sleep(10)
+        sleep(delay)
 
         # Closing the Chrome Window
         self.driver.close()
@@ -61,7 +63,6 @@ class Google(object):
 
             # Typing the new search
             elem.send_keys(product_name)
-
             sleep(self.delay)
 
             # Pressing ENTER (RETURN)
@@ -140,6 +141,7 @@ def download_each_image(obj, product_name):
             print('{q} - {filename} downloaded'.format(q = product_name, filename = filename))
 
 
+# Writing "n/a" in all the cells that the bot couldn't download a image
 def add_na_to_excel(each_image_index, product_index, product_name, error_text):
     key = 'Image %(column_image_number)s' % dict(column_image_number = each_image_index + 1)
     excel.downloaded_images[key].insert(product_index, 'n/a')

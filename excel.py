@@ -29,9 +29,11 @@ def read_excel_first_column():
 
 
 def add_data_to_excel():
+    # Adding all the images names and links to the table
     cell_letters = ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
     try:
         for i in range(9):
+            # Lopping over the columns B to J
             key = 'Image {column_image_number}'.format(column_image_number = i + 1)
 
             column_rows = downloaded_images[key]
@@ -43,6 +45,7 @@ def add_data_to_excel():
             ws = wb['Sheet1']
 
             for cell_row_number, row in df_new.iterrows():
+                # Placing all the data column by column in the excel file
                 cell = '%(column_letter)s%(cell_row_number)s' % dict(column_letter = cell_letters[i],
                                                                      cell_row_number = cell_row_number + 2)
                 ws[cell] = row[0]
