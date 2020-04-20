@@ -7,6 +7,7 @@ from openpyxl import load_workbook
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import ElementClickInterceptedException
 
 
 class Google(object):
@@ -63,8 +64,7 @@ class Google(object):
         # Pressing ENTER (RETURN)
         elem.send_keys(Keys.RETURN)
 
-        download_each_image(obj = self,
-                            product_name = product_name)
+        download_each_image(obj = self, product_name = product_name)
 
 
 def download_each_image(obj, product_name):
@@ -94,12 +94,14 @@ def download_each_image(obj, product_name):
             urlretrieve(src, filename)
         except NoSuchElementException:
             # no images found on this search
-            print('No image found for Product: {product}  | '.format(product = product_name))
-        except FileNotFoundError as err:
+            print('No image found for Product: {product}'.format(product = product_name))
+        except FileNotFoundError:
             # something wrong with local path
-            print(err)
-        except HTTPError as err:
-            print(err)
+            print('File error on downloading image for product: {product} '.format(product = product_name))
+        except HTTPError:
+            print('HTTP error on downloading image for product: {product} '.format(product = product_name))
+        except ElementClickInterceptedException:
+            print('The image click was interrupted on downloading product: {product} '.format(product = product_name))
         # except:
         #     # something unexpected went wrong
         #     print(
