@@ -1,14 +1,15 @@
+import platform
 from time import sleep
 from urllib.error import HTTPError
 from urllib.error import URLError
 from urllib.request import urlretrieve
-import platform
-import excel
 
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import ElementClickInterceptedException
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.keys import Keys
+from socket import error as SocketError
+import excel
 
 
 class Google(object):
@@ -120,6 +121,10 @@ def download_each_image(obj, product_name):
             add_na_to_excel(each_image_index = each_image_index, product_index = obj.product_index,
                             product_name = product_name,
                             error_text = 'The image click was interrupted on downloading product:')
+        except SocketError:
+            add_na_to_excel(each_image_index = each_image_index, product_index = obj.product_index,
+                            product_name = product_name,
+                            error_text = 'TRY INCREASING THE DELAY, you got SOCKET ERROR on product:')
         # except:
         #     # something unexpected went wrong
         #     print(
