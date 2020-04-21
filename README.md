@@ -19,7 +19,7 @@ xlrd
 
 openpyxl
 
- pyinstaller
+pyinstaller
 
 ---------------------------------------
 Install Selenium Chrome Driver
@@ -42,9 +42,9 @@ Step 1. Go to the folder Excel inside the project, find the a.xslx and replace t
 
 Step 2: Go in the terminal to the project location (where you downloaded the files) and type:
  
- pyinstaller --onefile setup.py
+pyinstaller --onefile setup.py
  
- After it executes you'll fiind your executable in the dist folder
+After it executes you'll find your executable in the dist folder
  
 Step 3. Add the delay between images in seconds using a number that can, optionally, include a decimal point [1 recommended]. 
 
