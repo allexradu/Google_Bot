@@ -1,7 +1,7 @@
 # Google Bot for eCommerce
 by Allex Radu
 
-This bot allows you to quickly download product images from your online shop using Google Image Search.
+This bot allows you to quickly download product images for your online shop using Google Image Search.
 
 All you need is a Excel Spreadsheet
 
