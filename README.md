@@ -3,8 +3,6 @@ by Allex Radu
 
 This bot allows you to quickly download product images for your online shop using Google Image Search.
 
-All you need is a Excel Spreadsheet
-
 ---------------------------------------
 
 Download requirements using pip install:
