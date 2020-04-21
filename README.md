@@ -40,21 +40,27 @@ https://chromedriver.chromium.org/downloads
  
 Step 1. Go to the folder Excel inside the project, find the a.xslx and replace the contents of the first column with your products, leave the column "Name", is important.
 
-Step 2: Go in the terminal to the project location (where you downloaded the files) and type:
+Step 2: Go in the terminal (command prompt - cmd) to the project location (where you downloaded the files) and type:
+
+python  __init__py
+
+If you want to turn the bot into an executable (.exe) file then type the command bellow: 
+
+rpyinstalle --onefile __init__.py
  
-pyinstaller --onefile setup.py
+Your executable will be in the dist file. Move the "__init__.exe" next "__init__.py" 
+
+Step 3: Select how many photos do you want the bot to download for each product name
  
-After it executes you'll find your executable in the dist folder
- 
-Step 3. Add the delay between images in seconds using a number that can, optionally, include a decimal point [1 recommended]. 
+Step 4 Add the delay between images in seconds using a number that can, optionally, include a decimal point [1 recommended]. 
 
 Note. A lower delay than 1 second my result in lower quality images.
 
-Step 4. Pick how many photos / search do you want the bot do download starting with 1 with a maximum of 9.
+Step 5. Pick how many photos / search do you want the bot do download starting with 1 with a maximum of 9.
 
 Note: The bot with download images with the file name stating with A1001.jpg (for the first image of the first product), A1002.jpg (for the second image), A1003.jpg (for the third), A1004.jpg (for the forth) ... A1009.jpg (for the ninth).
 
-Step 5. Wait for the robot to finish processing your product names, the robot will write in your excel file the link to image files so you can review them.
+Step 6. Wait for the robot to finish processing your product names, the robot will write in your excel file the link to image files so you can review them.
 
 IMPORTANT! All the image cells contain LINKS if you want to import your file please press Select columns, and paste special as Values.
 
