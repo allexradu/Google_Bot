@@ -18,6 +18,7 @@ selenium
 xlrd
 
 openpyxl
+
 ---------------------------------------
 Install Selenium Chrome Driver
 
@@ -32,6 +33,7 @@ C:\driver
 Download the driver from the link bellow and make sure it matches your Chrome Version (Check your Google Chrome version by going to Three Dots (top left corner) > Help > About Google Chrome )
 
 https://chromedriver.chromium.org/downloads 
+
  ---------------------------------------
  
 Step 1. Put your products name in column 1 and name it "Name"
