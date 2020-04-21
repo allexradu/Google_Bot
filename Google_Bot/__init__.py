@@ -9,8 +9,8 @@ def main():
     product_names = excel.read_excel_first_column()
 
     print('========================================================================')
-    print('|           Google_Bot 1.2.0.6 by Allex Radu [www.ATFR.net]             |')
-    print('|     Get the latest version at https://github.com/allexradu/gBot       |')
+    print('|           Google_Bot 1.2.0.7 by Allex Radu [www.ATFR.net]             |')
+    print('|   Get the latest version at https://github.com/allexradu/Google_Bot   |')
     print('========================================================================')
     print('| Instructions: Save your Excel Workbook as "a.xls" and place it in     |')
     print('| the same folder as this file, make sure the file in not opened.       |')
