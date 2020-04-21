@@ -18,6 +18,7 @@ xlrd
 openpyxl
 
 Install Selenium Chrome Driver
+
 Place it on a directory c:\driver and update your path variable to include this driver.
 
 Download the driver from the link bellow and make sure it matches your Chrome Version (Check your Google Chrome version by going to Three Dots (top left corner) > Help > About Google Chrome )
