@@ -92,7 +92,7 @@ def download_each_image(obj, product_name):
             # Getting the URL out the img attribute
             src = img.get_attribute('src')
 
-            system_prefix = 'excel\\photos\\' if platform.system() == 'Windows' else '../excel/photos/'
+            system_prefix = 'excel\\photos\\' if platform.system() == 'Windows' else 'excel/photos/'
 
             filename = 'A' + '{num}'.format(num = (100 + obj.product_index)) + '{image_index}.jpg'.format(
                 image_index = each_image_index + 1)

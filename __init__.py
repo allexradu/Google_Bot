@@ -9,7 +9,7 @@ def main():
     product_names = excel.read_excel_first_column()
 
     print('========================================================================')
-    print('|           Google_Bot 1.2.0.7 by Allex Radu [www.ATFR.net]             |')
+    print('|           Google_Bot 1.2.0.8 by Allex Radu [www.ATFR.net]             |')
     print('|   Get the latest version at https://github.com/allexradu/Google_Bot   |')
     print('========================================================================')
     print('| Instructions: Save your Excel Workbook as "a.xls" and place it in     |')

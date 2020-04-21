@@ -5,7 +5,7 @@ from openpyxl import load_workbook
 downloaded_images = {'Image 1': [''], 'Image 2': [''], 'Image 3': [''], 'Image 4': [''],
                      'Image 5': [''], 'Image 6': [''], 'Image 7': [''], 'Image 8': [''], 'Image 9': ['']}
 
-table_location = 'excel\\a.xlsx' if platform.system() == 'Windows' else '../excel/a.xlsx'
+table_location = 'excel\\a.xlsx' if platform.system() == 'Windows' else 'excel/a.xlsx'
 
 
 def read_excel_first_column():
