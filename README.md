@@ -36,11 +36,11 @@ https://chromedriver.chromium.org/downloads
 
  ---------------------------------------
  
-Step 1. Go to the folder Excel inside the project, find the a.xslx and replace the contents of the first column with your products, leave the column "Name", is important.
+Step 1. Go to the folder Excel inside the project, find the a.xslx and replace the contents of the first column with your products, keep the column header (the first cell in the column) "Name", is important.
 
 Step 2: Go in the terminal (command prompt - cmd) to the project location (where you downloaded the files) and type:
 
-python  __init__py
+python  __init__.py
 
 If you want to turn the bot into an executable (.exe) file then type the command bellow: 
 

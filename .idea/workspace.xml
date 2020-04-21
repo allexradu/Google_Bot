@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d71e63d9-2cf9-4617-b5d7-083f4676e63f" name="Default Changelist" comment="Version 1.2.0.6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/a.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/excel/a.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/gBot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -392,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587478058146</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Version 1.2.0.6">
+      <created>1587488088532</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1587488088532</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,10 +507,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="240" y="84" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587477338945" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1587478062557">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1587488097865">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587478062557" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587488097865" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587339065130">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
