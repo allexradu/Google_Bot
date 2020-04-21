@@ -404,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587496714877</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Version 1.2.0.6">
+      <created>1587496975673</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1587496975673</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -513,10 +520,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="240" y="84" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587477338945" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1587496719673">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1587497083319">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587496719673" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587497083319" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587339065130">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

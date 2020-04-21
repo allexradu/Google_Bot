@@ -40,15 +40,15 @@ Step 1. Go to the folder Excel inside the project, find the a.xslx and replace t
 
 Step 2: Go in the terminal (command prompt - cmd) to the project location (where you downloaded the files) and type:
 
-python  __init__(dot)py  
+python  [the init file]
 
-Replace the (dot) wth an actual dot.
+Replace [] with the actual file name.
 
 If you want to turn the bot into an executable (.exe) file then type the command bellow: 
 
-rpyinstalle --onefile __init__(dot)py
+rpyinstalle --onefile [the init file]
 
-Replace the (dot) wth an actual dot.
+Replace [] with the actual file name.
  
 Your executable will be in the dist file. Move the "__init__.exe" next "__init__.py" 
 
