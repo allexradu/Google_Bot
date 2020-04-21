@@ -35,13 +35,16 @@ class Google(object):
 
         sleep(delay)
 
-        for product_name in self.product_names:
-            # Lopping over each product name
-            self.download_each_product(product_name = product_name)
-            self.product_index += 1
-            # Updating the data in Excel
-            excel.add_data_to_excel()
-            print('product index is ', self.product_index)
+        try:
+            for product_name in self.product_names:
+                # Lopping over each product name
+                self.download_each_product(product_name = product_name)
+                self.product_index += 1
+                # Updating the data in Excel
+                excel.add_data_to_excel()
+                print('product index is ', self.product_index)
+        except TypeError:
+            print('Excel file not found')
 
         sleep(delay)
 
