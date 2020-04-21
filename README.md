@@ -46,7 +46,7 @@ Replace [] with the actual file name.
 
 If you want to turn the bot into an executable (.exe) file then type the command bellow: 
 
-rpyinstalle --onefile [the init file]
+rpyinstaller --onefile [the init file]
 
 Replace [] with the actual file name.
  
