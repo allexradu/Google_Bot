@@ -22,7 +22,7 @@ openpyxl
 ---------------------------------------
 Install Selenium Chrome Driver
 
-Place it on a directory c:\driver and update your path variable to include this driver.
+Place it in a directory c:\driver and update your path variable to include this driver.
 
 To update your path variable go to Start > Search "Control Panel" > Search "Path" > Edit environment variables for your account > Path > And copy the path your placed your driver like:
 
