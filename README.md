@@ -30,7 +30,7 @@ C:\driver
 
 (no backslash at the end)
 
-Download the driver from the link bellow and make sure it matches your Chrome Version (Check your Google Chrome version by going to Three Dots (top left corner) > Help > About Google Chrome )
+Download the driver from the link bellow and make sure it matches your Chrome Version (Check your Google Chrome version by going to Three Dots (top right corner) > Help > About Google Chrome )
 
 https://chromedriver.chromium.org/downloads 
 
