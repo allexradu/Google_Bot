@@ -87,9 +87,9 @@ class Google(object):
             print('Keyboard was interrupted')
 
 
-def download_each_image(obj, product_name):
+def download_each_image(obj, kproduct_name):
     thumbnails_xpath = get_the_thumbnail_xpath(obj.number_of_images)
-    larger_image_xpath = '//*[@id="Sva75c"]/div/div/div[3]/div[2]/div/div[1]/div[1]/div/div[2]/a/img'
+    larger_image_xpath = '//*[@id="Sva75c"]/div/div/div[3]/div[2]/c-wiz/div[1]/div[1]/div/div[2]/a/img'
 
     for each_image_index in range(obj.number_of_images):
 

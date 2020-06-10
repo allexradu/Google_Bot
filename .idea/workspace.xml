@@ -20,9 +20,256 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d71e63d9-2cf9-4617-b5d7-083f4676e63f" name="Default Changelist" comment="Version 1.2.0.6">
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1026.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1027.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1032.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1033.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1036.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1037.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1039.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1041.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1042.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1043.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1044.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1045.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1047.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1051.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1052.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1053.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1056.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1057.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1059.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1061.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1062.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1063.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1064.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1065.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1066.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1067.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1068.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1069.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1071.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1072.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1076.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1077.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1079.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1081.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1082.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1083.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1084.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1085.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1086.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1087.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1088.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1089.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1091.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1093.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1095.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1096.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1098.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1099.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1117.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1125.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1127.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1129.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1134.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1135.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1136.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1137.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1139.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1143.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1144.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1147.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1153.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1154.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1155.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1156.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1157.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1158.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1159.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1161.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1162.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1165.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1166.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1167.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1168.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1169.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1171.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1172.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1173.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1174.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1175.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1176.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1177.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1178.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1179.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1181.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1182.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1183.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1184.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1185.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1186.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1187.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1188.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1193.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1194.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1195.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1196.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1197.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1198.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1199.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1202.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1203.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1206.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1207.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1208.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1211.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1212.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1214.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1215.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1216.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1217.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1218.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1219.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1221.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1223.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1224.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1226.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1227.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1228.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1231.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1232.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1233.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1234.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1235.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1237.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1238.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1239.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1241.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1242.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1243.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1244.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1245.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1247.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1248.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1249.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1251.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1252.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1253.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1254.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1255.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1256.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1257.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1258.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1259.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1261.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1262.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1263.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1264.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1265.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1266.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1267.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1268.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1269.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1271.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1272.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1273.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1274.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1275.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1276.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1277.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1278.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1279.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1282.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1283.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1284.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1285.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1286.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1287.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1288.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1289.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1291.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1292.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1293.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1294.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1295.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1296.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1297.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1298.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel/photos/A1299.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/excel/a.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/excel/a.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/photos/images_are_downloaded_here.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/gBot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -435,7 +682,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587501926813</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Version 1.2.0.6">
+      <created>1589800964751</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1589800964751</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -508,22 +762,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="261" y="95" key="Git.Interactive.Rebase.Dialog/0.0.1536.824@0.0.1536.824" timestamp="1587231192722" />
-    <state width="1515" height="105" key="GridCell.Tab.0.bottom" timestamp="1588870658413">
+    <state width="1515" height="103" key="GridCell.Tab.0.bottom" timestamp="1591795813915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="105" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588870658413" />
-    <state width="1515" height="105" key="GridCell.Tab.0.center" timestamp="1588870658413">
+    <state width="1515" height="103" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591795813915" />
+    <state width="1515" height="103" key="GridCell.Tab.0.center" timestamp="1591795813915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="105" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588870658413" />
-    <state width="1515" height="105" key="GridCell.Tab.0.left" timestamp="1588870658413">
+    <state width="1515" height="103" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591795813915" />
+    <state width="1515" height="103" key="GridCell.Tab.0.left" timestamp="1591795813915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="105" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588870658413" />
-    <state width="1515" height="105" key="GridCell.Tab.0.right" timestamp="1588870658413">
+    <state width="1515" height="103" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591795813915" />
+    <state width="1515" height="103" key="GridCell.Tab.0.right" timestamp="1591795813915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="105" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588870658413" />
+    <state width="1515" height="103" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591795813915" />
     <state width="1515" height="253" key="GridCell.Tab.1.bottom" timestamp="1587502673596">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -544,10 +798,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="240" y="84" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587477338945" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1587501936486">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1589800993911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587501936486" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1589800993911" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587339065130">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
