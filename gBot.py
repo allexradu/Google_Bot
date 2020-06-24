@@ -17,15 +17,15 @@ import excel
 class Google(object):
     def __init__(self, number_of_images, product_names, delay):
         # # Uncomment the lines bellow to run Chrome Headless
-        # chrome_options = Options()
-        # chrome_options.add_argument("--no-sandbox")
-        # chrome_options.add_argument("--headless")
-        # chrome_options.add_argument("disable-gpu")
-        # chrome_options.add_argument("window-size=1400,2100")
-        # self.driver = webdriver.Chrome(ChromeDriverManager().install(), options = chrome_options)
+        chrome_options = Options()
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("disable-gpu")
+        chrome_options.add_argument("window-size=1400,2100")
+        self.driver = webdriver.Chrome(ChromeDriverManager().install(), options = chrome_options)
 
         # Activating the Chrome Driver
-        self.driver = webdriver.Chrome()
+        # self.driver = webdriver.Chrome()
         self.number_of_images = number_of_images
         self.product_names = product_names
         self.product_index = 0
